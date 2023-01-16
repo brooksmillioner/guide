@@ -14,8 +14,10 @@ crontab -e
 ```
 4. After you have entered the container - Down to the bottom so that the input field was from a clean line 
 
-5. * */12 * * * docker restart minima9001
-
+5.
+```bash
+ * */12 * * * docker restart minima9001
+```
  ctrl+х ( Y + Enter)
 
 6. After checking again by entering the container with the command above under number 2
