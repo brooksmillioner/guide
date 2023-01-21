@@ -1,8 +1,8 @@
 # Server buying services. Paid
-1. contabo.com
+1. [contabo.com](https://contabo.com)
 2. https://zomro.com/dedicated?from=247831
 3. https://pq.hosting/?from=35905
-4. [https://pq.hosting/?from=35905](https://aeza.net/?ref=369779)
+4. https://aeza.net/?ref=369779
 
 # Free
 Services that give a free trial period or $ to servers. You need a card with a balance of $1-5 and that's it.
