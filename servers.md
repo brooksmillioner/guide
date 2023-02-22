@@ -2,6 +2,7 @@
 1. [contabo.com](https://contabo.com)
 2. https://zomro.com/dedicated?from=247831
 3. https://aeza.net/?ref=369779
+4. https://macloud.ru/?partner=nhch2npisp
 
 # Free
 Services that give a free trial period or $ to servers. You need a card with a balance of $1-5 and that's it.
