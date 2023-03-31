@@ -1,5 +1,7 @@
 # Gaga Node guide
 
+Buy server - https://github.com/brooksmillioner/guide/blob/main/servers.md
+
 Register - https://dashboard.gaganode.com/register?referral_code=kqzlupqhbf
 
 # Further actions on the server
