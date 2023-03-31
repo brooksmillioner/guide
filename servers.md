@@ -1,8 +1,9 @@
 # Server buying services. Paid
 1. [contabo.com](https://contabo.com)
 2. https://zomro.com/dedicated?from=247831
-3. https://aeza.net/?ref=369779
-4. https://macloud.ru/?partner=nhch2npisp
+3. https://aeza.net/?ref=369779 - 15% deposit bonus within 24 hours after registration
+4. https://macloud.ru/?partner=nhch2npisp - discount 10%
+5. https://vdsina.ru/?partner=86c83qewb1 - discount 10%
 
 # Free
 Services that give a free trial period or $ to servers. You need a card with a balance of $1-5 and that's it.
