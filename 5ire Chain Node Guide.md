@@ -1,5 +1,7 @@
 # 5ire Chain Node Guide
----
+
+Buy server - https://github.com/brooksmillioner/guide/blob/main/servers.md
+
 Recommended system requirements: 
 - 16 CPU
 - 32 Gb RAM
@@ -7,6 +9,7 @@ Recommended system requirements:
 - OS: Ubuntu 20.04
 - ports 30333
 
+---
 1. Update & upgrade
 ```bash
 sudo apt update && sudo apt upgrade
