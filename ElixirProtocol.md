@@ -1,11 +1,15 @@
 # Elixir Protocol Node Guide
 
+Buy server - https://github.com/brooksmillioner/guide/blob/main/servers.md
+
 Recommended system requirements: 
 - 2 CPU
 - 4 Gb RAM
 - 40 GB SSD
 - OS: Ubuntu 20.04
 
+
+---
 
 Installing docker:
 ```bash
