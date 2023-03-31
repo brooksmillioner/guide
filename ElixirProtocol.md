@@ -39,6 +39,7 @@ You can check the functionality of the node on the website - https://metrics.eli
 Logs:
 ```bash
 docker container ls
-```
+
 docker container logs <CONTAINED_ID>
+```
 <CONTAINED_ID> - Your container name.
