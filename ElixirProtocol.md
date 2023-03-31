@@ -35,7 +35,7 @@ docker run -d --restart unless-stopped --name ev elixir-validator
 ```
 
 You can check the functionality of the node on the website - https://metrics.elixir.finance/
-
+-
 Logs:
 ```bash
 docker container ls
