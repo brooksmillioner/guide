@@ -9,12 +9,12 @@ Recommended system requirements:
 - OS: Ubuntu 20.04
 
 ---
-1. Устанавливаем нужные пакеты и обновляем "данные":
+1. Install the necessary packages and update the "data":
 ```bash
 apt update && apt upgrade -y 
 apt install curl iptables build-essential git wget jq make gcc nano tmux htop nvme-cli pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev -y
 ```
-2. Устанавливаем Go последней версии:
+2. Install Go with the latest version:
 ```bash
 ver="1.20.3" && \ 
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz" && \ 
@@ -25,22 +25,22 @@ echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile &
 source $HOME/.bash_profile && \ 
 go version
 ```
-3. Устанавливаем ноду:
+3. Install a node:
 ```bash
 git clone https://github.com/cascadiafoundation/cascadia && cd cascadia 
 git checkout v0.1.1 
 make install
 ```
-4. Скачиваем генезис файл:
+4. Download the genesis file:
 ```bash
 wget -O $HOME/.cascadiad/config/genesis.json "https://anode.team/Cascadia/test/genesis.json"
 ```
-5. Добавляем пиры:
+5. Adding piers:
 ```bash
 peers="893b6d4be8b527b0eb1ab4c1b2f0128945f5b241@185.213.27.91:36656"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.cascadiad/config/config.toml
 ```
-6. Настраиваем StateSync:
+6. Configure StateSync:
 ```bash
 SNAP_RPC=185.213.27.91:36657
 
@@ -55,7 +55,7 @@ s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
 s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \ 
 s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.cascadiad/config/config.toml
 ```
-7. Создаем сервисный файл:
+7. Create a service file:
 ```bash
 tee /etc/systemd/system/cascadiad.service > /dev/null <<EOF 
 [Unit] 
@@ -73,16 +73,13 @@ LimitNOFILE=65535
 WantedBy=multi-user.target 
 EOF
 ```
-8. Запускаем ноду:
+8. Launch the node:
 ```bash
 systemctl daemon-reload 
 systemctl enable cascadiad 
 systemctl restart cascadiad 
 ```
-9. Проверяем логи:
+9. Checking the logs:
 ```bash
 journalctl -fu cascadiad -o cat
 ```                                                            
-                                                            
-                                                            
-                                                            
