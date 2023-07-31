@@ -7,3 +7,20 @@ Recommended system requirements:
 - 4 Gb RAM
 - 40 GB SSD
 - OS: Ubuntu 20.04
+
+---
+1. Install the necessary packages:
+```bash
+apt update && apt upgrade -y
+
+sudo apt install make clang git pkg-config libssl-dev build-essential git gcc chrony curl jq ncdu bsdmainutils htop net-tools lsof fail2ban wget -y
+```
+2. Install docker and docker-compose:
+```bash
+sudo apt install docker.io -y
+
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
+```
+3. 
