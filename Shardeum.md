@@ -23,4 +23,36 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 
 sudo chmod +x /usr/local/bin/docker-compose
 ```
-3. 
+3. Install node:
+```bash
+curl -O https://gitlab.com/shardeum/validator/dashboard/-/raw/main/installer.sh && chmod +x installer.sh && ./installer.sh
+```
+4. Run operator-cli and node:
+```bash
+cd ~/.shardeum
+./shell.sh
+operator-cli gui start
+operator-cli start
+```
+
+
+5. Instead of <privatekey>, change it to your own:
+```bash
+echo -e <privatekey> | operator-cli stake 10
+```
+6. Instead of <adress>, change it to your own:
+```bash
+operator-cli stake_info <adress>
+```
+
+---
+Delete node:
+```bash
+cd ~/.shardeum
+./cleanup.sh
+cd ~/
+rm -rf .shardeum
+rm installer.sh
+```
+
+
