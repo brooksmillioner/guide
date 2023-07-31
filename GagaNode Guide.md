@@ -33,3 +33,4 @@ sudo ./apps/gaganode/gaganode config set --token="YOURTOKEN"
 ./app restart
 ```
 Check https://dashboard.gaganode.com/user_node in a few minutes.
+![image](https://github.com/brooksmillioner/guide/assets/52867637/8e599d86-83d8-405d-9c5e-9634b5e69d4c)
