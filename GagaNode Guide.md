@@ -4,6 +4,12 @@ Buy server - https://github.com/brooksmillioner/guide/blob/main/servers.md
 
 Register - https://dashboard.gaganode.com/register?referral_code=kqzlupqhbf
 
+Minimum system requirements: 
+- 1 CPU
+- 1 Gb RAM
+- 10 GB SSD
+- OS: Ubuntu 20.04
+
 # Further actions on the server
 
 1. Update & upgrade
