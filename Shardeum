@@ -10,7 +10,7 @@ Recommended system requirements:
 
 ---
 1. Install the necessary packages:
-```bash
+```
 apt update && apt upgrade -y
 
 sudo apt install make clang git pkg-config libssl-dev build-essential git gcc chrony curl jq ncdu bsdmainutils htop net-tools lsof fail2ban wget -y
