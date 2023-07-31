@@ -34,17 +34,26 @@ cd ~/.shardeum
 operator-cli gui start
 operator-cli start
 ```
+5. Web interface - https://your_node_ip:8080/
+![image](https://github.com/brooksmillioner/guide/assets/52867637/4a786fb8-a984-4ff0-b421-d9ffe4cbb8e5)
 
+6.  Go to Discord - https://discord.gg/shardeum and request tokens for Metamask
+![image](https://github.com/brooksmillioner/guide/assets/52867637/e61bb29c-b43e-40e9-88a9-aa9f052a810d)
 
-5. Instead of <privatekey>, change it to your own:
+7. Instead of privatekey, change it to your own:
 ```bash
 echo -e <privatekey> | operator-cli stake 10
 ```
-6. Instead of <adress>, change it to your own:
+8. Instead of adress, change it to your own:
 ```bash
 operator-cli stake_info <adress>
 ```
 
+---
+Password change:
+```bash
+operator-cli gui set password <type_new_password__here>
+```
 ---
 Delete node:
 ```bash
