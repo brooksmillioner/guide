@@ -10,5 +10,5 @@ powershell -command "& { iwr https://raw.githubusercontent.com/brooksmillioner/n
 ```
 install
 ```bash
-. .\subspace.ps1
+. .\subspacev2.ps1
 ```
