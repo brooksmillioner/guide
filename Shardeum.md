@@ -1,5 +1,7 @@
 # SHARDEUM NODE GUIDE
 
+Last update Sphinx 1.10.0 in 23.02.2024
+
 Buy server - https://github.com/brooksmillioner/guide/blob/main/servers.md
 
 Recommended system requirements: 
