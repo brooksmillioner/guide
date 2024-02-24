@@ -30,6 +30,6 @@ Recommended system requirements:
 6. The end result should be approximately this:
 ![image](https://user-images.githubusercontent.com/52867637/231744782-9c367073-681d-4f0e-a597-7fe0f53793f1.png)
 
-To view transactions and check a node use the site - https://0l.interblockcha.in/ 
+To view transactions and check a node use the site - https://0l.fyi/
 On the top right, enter the address of your wallet and get information.
 
