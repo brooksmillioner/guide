@@ -1,4 +1,6 @@
-# ELIXIR V2 NODE GUIDE 
+# ELIXIR V2 NODE GUIDE
+
+NO ACTITE   - 28/07/24
 
 Buy server - https://github.com/brooksmillioner/guide/blob/main/servers.md
 
