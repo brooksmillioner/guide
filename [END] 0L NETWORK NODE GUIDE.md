@@ -1,5 +1,7 @@
 # 0L NETWORK NODE GUIDE
 
+NO ACTIVE - UPDATE 28/07/24
+
 Site: https://0l.network/
 Twitter: https://twitter.com/0LNetwork
 Discord: https://discord.gg/0lnetwork
