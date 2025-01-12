@@ -20,6 +20,7 @@ sudo apt install -y make clang git pkg-config libssl-dev build-essential git gcc
 
 sudo apt install -y screen git zip unzip mc nano htop cron libyaml-dev iptables-persistent && dpkg -L iptables-persistent
 ```
+---
 2. Open ports
 ```
 sudo mkdir -p /etc/iptables
@@ -38,10 +39,12 @@ sudo ufw allow 2283/udp
 sudo ufw allow 3000/udp
 sudo ufw allow 3000/tcp
 ```
+---
 3. Create screen session
 ```
 screen -S Hubble
 ```
+---
 4. Install and start Farcaster mainnet node
 ```
 curl -sSL https://download.thehubble.xyz/bootstrap.sh | bash
