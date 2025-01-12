@@ -48,9 +48,10 @@ curl -sSL https://download.thehubble.xyz/bootstrap.sh | bash
 ```
 The system will ask following:
 
-ETH_MAINNET_RPC_URL=your-ETH-mainnet-RPC-URL (you can take from https://www.alchemy.com) 
-OPTIMISM_L2_RPC_URL=your-L2-optimism-RPC-URL (you can take from https://www.alchemy.com) 
-HUB_OPERATOR_FID=your-fid (you can take from WarpCast - https://warpcast.com/~/invite-page/342012?id=107e8bb7 ) 
+- ETH_MAINNET_RPC_URL=your-ETH-mainnet-RPC-URL (you can take from https://www.alchemy.com)
+- OPTIMISM_L2_RPC_URL=your-L2-optimism-RPC-URL (you can take from https://www.alchemy.com)
+- HUB_OPERATOR_FID=your-fid (you can take from WarpCast - https://warpcast.com/~/invite-page/342012?id=107e8bb7 )
+
 ---
 5. Check your node
 Open your browser and insert you link with ip ``` http://123.123.123.123:3000 ```
