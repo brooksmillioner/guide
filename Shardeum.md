@@ -1,8 +1,12 @@
 # SHARDEUM NODE GUIDE
 
-Last update Sphinx 1.10.3 in 06.04.2024
+Last update Atomium 1.16.3 in 11.01.2025
+Last update guide 13.01.2025
 
 Buy server - https://github.com/brooksmillioner/guide/blob/main/servers.md
+
+Post incentivized testnet - https://x.com/shardeum/status/1841142290397741295
+
 
 Recommended system requirements: 
 - 2 CPU
@@ -29,27 +33,18 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```bash
 curl -O https://gitlab.com/shardeum/validator/dashboard/-/raw/main/installer.sh && chmod +x installer.sh && ./installer.sh
 ```
-4. Run operator-cli and node:
-```bash
-cd ~/.shardeum
-./shell.sh
-operator-cli gui start
-operator-cli start
-```
-5. Web interface - https://your_node_ip:8080/
-![image](https://github.com/brooksmillioner/guide/assets/52867637/4a786fb8-a984-4ff0-b421-d9ffe4cbb8e5)
----
-6.  Go to Discord - https://discord.gg/shardeum and request tokens for Metamask
-![image](https://github.com/brooksmillioner/guide/assets/52867637/e61bb29c-b43e-40e9-88a9-aa9f052a810d)
+4. Web interface - https://your_node_ip:8080/
+![image](https://github.com/user-attachments/assets/98da7bd0-de4a-4911-bdbb-6cbbca2ea6f3)
 
-7. Instead of privatekey, change it to your own:
-```bash
-echo -e <privatekey> | operator-cli stake 10
-```
-8. Instead of adress, change it to your own:
-```bash
-operator-cli stake_info <adress>
-```
+---
+5.  Go to Discord - https://discord.gg/shardeum and request tokens for Metamask
+![image](https://github.com/brooksmillioner/guide/assets/52867637/e61bb29c-b43e-40e9-88a9-aa9f052a810d)
+---
+6. Go to the site, connect your wallet, click Start Node, steak at least 10 $SHM - https://shardeum.org/incentivized-testnet/
+![image](https://github.com/user-attachments/assets/2bd87ded-ac05-42af-a718-11b8a65a766e)
+7. Confirm task completion
+![image](https://github.com/user-attachments/assets/0ba0a378-20e6-4ea7-af9f-bae5ff6a0ea7)
+
 
 ---
 Password change:
